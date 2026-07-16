@@ -1,0 +1,10 @@
+Mostafa Candidate
+Administrateur IT / Administrateur Système
+
+Skills: Windows Server, Active Directory, Linux, Office 365, VMware, Networking, Cisco, Helpdesk, PowerShell, Backup
+
+Experience:
+- Administration des serveurs Windows et Linux
+- Gestion Active Directory, DNS, DHCP
+- Support utilisateurs et infrastructure réseau
+- Virtualisation VMware et sauvegardes

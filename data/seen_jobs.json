@@ -1,0 +1,730 @@
+{
+  "jobs": {
+    "https://www.arbeitnow.com/jobs/companies/nordason/frontend-developer-e-commerce-hamburg-211075": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Frontend Developer E-Commerce (w/m/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://www.dreamjob.ma/emploi/infotel-recrute-des-developpeurs-fullstack-experimentes": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Infotel recrute des développeurs Fullstack expérimentés",
+      "source": "dreamjob",
+      "last_seen": "2026-07-15T12:14:14.586406+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000136742266-developpeur-fullstack-nuxtjs-java-spring-boot": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeur Fullstack NuxtJS / Java Spring Boot",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:14:14.586406+00:00"
+    },
+    "https://jobs.smartrecruiters.com/sqli1/744000135754450-developpeur-java-senior-full-stack-java-angular": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeur Java Senior_ Full stack Java Angular",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000135069651-developpeur-senior-nifi-expertise-flux-devops": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeur Sénior NiFi – Expertise Flux & DevOps",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://workmaroc.com/jobs/developpeuse-web-casablanca-88b143ac340d45672027c85ce02cacc1": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeuse web – casablanca",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:14:14.586406+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000136505632-developpeur-uipath-rpa": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeur UiPath – RPA",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T17:07:11.878628+00:00"
+    },
+    "https://jobs.smartrecruiters.com/inetum2/744000136273936-developpeur-python": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeur Python",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:34:57.457661+00:00"
+    },
+    "https://jobs.smartrecruiters.com/inetum2/744000136209951-developpeur-net": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Développeur .NET",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/laioutr-gmbh/ai-engineer-full-stack-typescript-nuxt-next-vue-react-berlin-265753": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "AI Engineer (m/f/d) - Full Stack, TypeScript / Nuxt / Next / Vue / React",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/1komma50/lead-senior-technical-product-manager-platform-engineering-berlin-394233": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "(Lead/Senior) Technical Product Manager - Platform Engineering (m/f/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2090986": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Senior AI Engineer",
+      "source": "remotive",
+      "last_seen": "2026-07-15T00:34:57.457661+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-belo-horizonte-2091056": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Software Engineer, Product (Belo Horizonte)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-montevideo-2091058": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Software Engineer, Product (Montevideo)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-sao-paulo-2091055": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Software Engineer, Product (São Paulo)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-mexico-city-2091050": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Software Engineer, Product (Mexico City)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-campinas-2091049": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Software Engineer, Product (Campinas)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/staff-software-engineer-product-florianopolis-2091059": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Software Engineer, Product (Florianópolis)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/apaleo/senior-software-engineer-net-munich-86775": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Senior Software Engineer (.NET) (f/m/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/apaleo/software-engineer-net-munich-422254": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Software Engineer (.NET) (f/m/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://remotive.com/remote-jobs/marketing/remote-office-assistant-1680495": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Remote Office Assistant",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/platri-it/werkstudent-product-owner-fur-softwareprojekte-bochum-405837": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Werkstudent Product Owner für Softwareprojekte (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/senior-it-operations-engineer-gn-berlin-34428": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "(Senior) IT Operations Engineer (gn)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/lead-it-operations-engineer-gn-uslar-389697": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Lead IT Operations Engineer (gn)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/it-operations-engineer-gn-berlin-298007": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "IT Operations Engineer (gn)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/bikeleasing-service-gmbh-co-kg/lead-it-operations-engineer-gn-uslar-379734": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Lead IT Operations Engineer (gn)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://remotive.com/remote-jobs/communications/communications-manager-2090985": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Communications Manager",
+      "source": "remotive",
+      "last_seen": "2026-07-14T23:21:18.423918+00:00"
+    },
+    "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Inside Sales Contractor",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/customer-service/customer-operations-writing-specialist-2090942": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Customer Operations & Writing Specialist",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/staff-product-engineer-mexico-city-2091057": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Product Engineer (Mexico City)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/staff-product-engineer-montevideo-2091054": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Product Engineer (Montevideo)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/staff-product-engineer-campinas-2091053": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Product Engineer (Campinas)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/staff-product-engineer-belo-horizonte-2091052": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Product Engineer (Belo Horizonte)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/staff-product-engineer-florianopolis-2091051": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Staff Product Engineer (Florianópolis)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Tier III Service Desk Engineer",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/ckm-group/head-of-product-engineering-berlin-11220": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Head of Product & Engineering (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/senior-engineering-manager-supply-domain-all-genders-berlin-309048": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Senior Engineering Manager, Supply Domain (all genders)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/distribusion-technologies/engineering-manager-search-engine-all-genders-berlin-247347": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Engineering Manager, Search Engine (all genders)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:28:43.984139+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/retorio-gmbh/working-student-qa-automation-engineering-munich-344238": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Working Student: QA Automation Engineering (m/f/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/peregrine-technologies-gmbh/senior-machine-learning-engineer-m-f-berlin-422797": {
+      "first_seen": "2026-07-14T00:28:42.051208+00:00",
+      "title": "Senior Machine Learning Engineer (m/f/*)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T00:29:42.340096+00:00"
+    },
+    "https://remotive.com/remote-jobs/medical/assistant-account-payable-2090989": {
+      "first_seen": "2026-07-14T00:29:42.340096+00:00",
+      "title": "Assistant Account Payable",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-2091047": {
+      "first_seen": "2026-07-14T00:29:42.340096+00:00",
+      "title": "Online Data Analyst Canada",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:31.838707+00:00"
+    },
+    "https://jobs.smartrecruiters.com/sqli1/744000134525156-developpeur-fullstack-java-angular-senior-": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Développeur Fullstack Java / Angular (Sénior)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://www.dreamjob.ma/emploi/circet-morocco-recrute-des-developpeurs-fullstack-a-casablanca": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Circet Morocco recrute des développeurs Fullstack à Casablanca",
+      "source": "dreamjob",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://jobs.smartrecruiters.com/sqli1/744000133658786-ingenieur-concepteur-developpeur-fullstack-net-angular-ou-react-": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Ingénieur Concepteur Développeur Fullstack .NET / (Angular ou React)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://jobs.smartrecruiters.com/sqli1/744000134833631-developpeur-java-angular-h-f": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Développeur Java / Angular H/F",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://jobs.smartrecruiters.com/inetum2/744000134439161-developpeur-confirme-php-sql": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Développeur confirmé PHP / SQL",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000133982451--developpeur-adobe-campaign": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Développeur Adobe Campaign",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:29:50.621181+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000133528411-developpeur-python-django": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Développeur Python/Django",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:34:57.457661+00:00"
+    },
+    "https://remotive.com/remote-jobs/qa/senior-quality-engineer-florianopolis-2090994": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Senior Quality Engineer (Florianópolis)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/qa/senior-quality-engineer-sao-paulo-2090995": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Senior Quality Engineer (São Paulo)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/qa/senior-quality-engineer-belo-horizonte-2090996": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Senior Quality Engineer (Belo Horizonte)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/qa/senior-quality-engineer-campinas-2090998": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Senior Quality Engineer (Campinas)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/qa/senior-quality-engineer-porto-alegre-2090997": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Senior Quality Engineer (Porto Alegre)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/senior-product-manager-2090984": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Senior Product Manager",
+      "source": "remotive",
+      "last_seen": "2026-07-15T00:34:57.457661+00:00"
+    },
+    "https://remotive.com/remote-jobs/product/staff-product-engineer-sao-paulo-2091000": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Staff Product Engineer (São Paulo)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://remotive.com/remote-jobs/customer-service/client-success-coach-csm-2091039": {
+      "first_seen": "2026-07-14T00:29:50.621181+00:00",
+      "title": "Client Success Coach (CSM)",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://jobs-ma.com/view.php": {
+      "first_seen": "2026-07-14T00:30:04.918529+00:00",
+      "title": "Consultant Ingénieur systèmes Windows et Linux (Sécurité) (H/F) - Mission FREELANCE | Casablanca (Maroc)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:32:39.346387+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-60a82322853f1e97af2c74c8fad8c7cf": {
+      "first_seen": "2026-07-14T00:30:04.918529+00:00",
+      "title": "Administrateur Systèmes et Communication unifiées expérimenté F/H",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T00:42:17.282100+00:00"
+    },
+    "https://www.marocannonces.com/categorie/309/offres-emploi/annonce/10409243/administrateur-syst%c3%a8mes-et-infrastructure-t%c3%a9touan.html": {
+      "first_seen": "2026-07-14T00:30:04.918529+00:00",
+      "title": "Administrateur systèmes & infrastructure - tétouan",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T23:22:14.164978+00:00"
+    },
+    "https://www.marocannonces.com/categorie/309/offres-emploi/annonce/10393914/administrateur(rice)-sap-business-one.html": {
+      "first_seen": "2026-07-14T00:30:04.918529+00:00",
+      "title": "Administrateur (rice) sap business one",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T23:22:14.164978+00:00"
+    },
+    "https://jobs.smartrecruiters.com/inetum2/744000134725818-administrateur-jira-confluence-support-n2-n3": {
+      "first_seen": "2026-07-14T00:30:04.918529+00:00",
+      "title": "Administrateur Jira & Confluence – Support N2/N3",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T23:21:05.650794+00:00"
+    },
+    "https://www.interactjob.ma/en/offres/postes-ouverts-en-maintenance-et-systemes-dinformation-chez-mafoder-casablanca": {
+      "first_seen": "2026-07-14T00:30:04.918529+00:00",
+      "title": "Postes ouverts en maintenance et systèmes d’information chez Mafoder",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:32:39.346387+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-7bac664daf5cc059f3c60d17638bc99a": {
+      "first_seen": "2026-07-14T14:18:50.347341+00:00",
+      "title": "Administrateur Systèmes et Communication unifiées expérimenté F/H",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:32:39.346387+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-9489f53842774379cacdd030f8fd3587": {
+      "first_seen": "2026-07-14T14:18:50.347341+00:00",
+      "title": "Ingénieur Systèmes et Virtualisation",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:32:39.346387+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-875b87a22772d929ceed109f48cdb75f": {
+      "first_seen": "2026-07-14T14:29:32.750830+00:00",
+      "title": "AD Reprocessing Software Developer – Senior H/F",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-170f35ce1213a0a7818eb36f5e027ed0": {
+      "first_seen": "2026-07-14T14:29:32.750830+00:00",
+      "title": "Développeur Full Stack Senior",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:30:31.838707+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-212d82693be75a1994e3d0903f340d8b": {
+      "first_seen": "2026-07-14T14:29:32.750830+00:00",
+      "title": "Automotive Software Integration Engineer",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-41e09f2cb4d58a5ca8bcfb510e1007fb": {
+      "first_seen": "2026-07-14T14:29:32.750830+00:00",
+      "title": "AD Software Engineer",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-cc6ef56b8f47cb1f19ed96f0925eae86": {
+      "first_seen": "2026-07-14T14:29:32.750830+00:00",
+      "title": "AD Simulation SW Developer",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:30:31.838707+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-7583be6a608f650b11fff36cbb89784b": {
+      "first_seen": "2026-07-14T14:29:32.750830+00:00",
+      "title": "Software Development Manager",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/gfn-gmbh/senior-software-engineer-ml-engineer-im-bildungsumfeld-remote-heidelberg-356036": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Software Engineer / ML Engineer (m/w/x) im Bildungsumfeld / Remote",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/senior-product-engineer-fullstack-2091062": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Product Engineer (Fullstack)",
+      "source": "remotive",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/simscale-gmbh/principal-governance-risk-and-compliance-grc-architect-munich-313642": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Principal Governance, Risk and Compliance (GRC) Architect",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/speechify/software-engineer-data-infrastructure-acquisition-munich-germany-382903": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Software Engineer, Data Infrastructure & Acquisition - Munich, Germany",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/speechify/senior-software-engineer-windows-desktop-applications-munich-germany-484546": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Software Engineer, Windows/Desktop Applications - Munich, Germany",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/speechify/senior-software-engineer-core-experiences-munich-germany-193604": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Software Engineer, Core Experiences - Munich, Germany",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/speechify/senior-software-engineer-windows-desktop-applications-dusseldorf-germany-dusseldorf-164606": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Software Engineer, Windows/Desktop Applications - Düsseldorf, Germany",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/speechify/senior-software-engineer-windows-desktop-applications-hamburg-germany-63852": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Software Engineer, Windows/Desktop Applications - Hamburg, Germany",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/speechify/senior-software-engineer-core-experiences-frankfurt-germany-459377": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Senior Software Engineer, Core Experiences - Frankfurt, Germany",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/sumup/android-engineer-berlin-241655": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Android Engineer",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/everii-group-gmbh/software-engineer-wien-hamburg-frankfurt-451553": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Software Engineer (w/m/d) - Wien | Hamburg | Frankfurt",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/jiro-consulting/initiativbewerbung-bau-infrastruktur-gn-bauleiter-kalkulator-projektleiter-hamburg-210644": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Initiativbewerbung Bau & Infrastruktur (gn) | Bauleiter, Kalkulator, Projektleiter",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/itelligy-digital-experts-gmbh-co-kg/hubspot-crm-consultant-sales-marketing-service-hub-freiburg-im-breisgau-256847": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "HubSpot CRM Consultant - Sales, Marketing & Service Hub (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/bruggen-engineering-gmbh/entwicklungsingenieur-biosensoren-in-mannheim-1701-423994": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Entwicklungsingenieur (m/w/d) Biosensoren in Mannheim (1701)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/innomotion-media-gmbh/bi-consultant-power-bi-microsoft-fabric-spezialist-hamburg-377849": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "BI Consultant / Power BI & Microsoft Fabric Spezialist (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/hanitel-gmbh/soc-consultant-security-operations-center-berlin-347681": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "SOC Consultant (Security Operations Center) (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/con-ing-gmbh/bauuberwacher-bahn-oberbau-und-ingenieurbau-ob-kib-munich-207449": {
+      "first_seen": "2026-07-14T14:30:08.800655+00:00",
+      "title": "Bauüberwacher Bahn Oberbau und Ingenieurbau (OB/KIB)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T14:30:08.800655+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000135198271-embedded-software-engineer-": {
+      "first_seen": "2026-07-14T14:30:31.838707+00:00",
+      "title": "Embedded Software Engineer",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266": {
+      "first_seen": "2026-07-14T14:30:31.838707+00:00",
+      "title": "Senior Independent AI Engineer / Architect",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:31.838707+00:00"
+    },
+    "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306": {
+      "first_seen": "2026-07-14T14:30:31.838707+00:00",
+      "title": "Freelance Copywriter",
+      "source": "remotive",
+      "last_seen": "2026-07-14T14:30:58.977116+00:00"
+    },
+    "https://www.rekrute.com/fr/offre-emploi-software-engineer-python-devops-recrutement-coface-casablanca-184529.html": {
+      "first_seen": "2026-07-14T14:30:58.977116+00:00",
+      "title": "Software Engineer Python / DevOps | Casablanca (Maroc)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-e4f081bc426aad2beef48583b301ed6a": {
+      "first_seen": "2026-07-14T14:30:58.977116+00:00",
+      "title": "Senior Software Engineer",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-40c4240991a1c78a9441d16596f6d31d": {
+      "first_seen": "2026-07-14T14:30:58.977116+00:00",
+      "title": "Software Engineer Expérimenté F/H",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-a41186285deff9af468e4bfd33da4162": {
+      "first_seen": "2026-07-14T14:30:58.977116+00:00",
+      "title": "Software Engineer | Casablanca",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-aa4a796f9b076fc6f7d62c50d48d48da": {
+      "first_seen": "2026-07-14T14:30:58.977116+00:00",
+      "title": "Software Engineer",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://www.rekrute.com/fr/offre-emploi-senior-java-software-engineer-ai-integration-recrutement-leyton-casablanca-183974.html": {
+      "first_seen": "2026-07-14T14:30:58.977116+00:00",
+      "title": "Senior Java Software Engineer (AI Integration) | Casablanca (Maroc)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-14T14:31:10.836296+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/qvest-group-gmbh/infrastructure-engineer-devops-halle-saale-107319": {
+      "first_seen": "2026-07-14T23:21:18.423918+00:00",
+      "title": "Infrastructure Engineer / DevOps (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T23:30:36.054906+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/oncare-gmbh/application-support-engineer-munich-54961": {
+      "first_seen": "2026-07-14T23:21:18.423918+00:00",
+      "title": "Application Support Engineer (f/m/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-14T23:30:36.054906+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/saj-digital-energy-germany-gmbh/technical-support-engineer-romania-frankfurt-am-main-490753": {
+      "first_seen": "2026-07-14T23:21:18.423918+00:00",
+      "title": "Technical Support Engineer - Romania",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:29:01.108132+00:00"
+    },
+    "https://ma.trabajo.org/offre-4076-64bc0928a9e27f2ef45c91b44d2a9f06": {
+      "first_seen": "2026-07-15T00:21:05.410481+00:00",
+      "title": "Technicien de maintenance électricité F/H",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:31:26.013781+00:00"
+    },
+    "https://www.marocannonces.com/categorie/309/offres-emploi/annonce/10408261/technicien-electricien.html": {
+      "first_seen": "2026-07-15T00:21:11.581279+00:00",
+      "title": "Technicien electricien",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:31:26.013781+00:00"
+    },
+    "https://www.dreamjob.ma/emploi/recrutement-immediat-a-kenitra-chez-aerodefi-systems": {
+      "first_seen": "2026-07-15T00:21:11.581279+00:00",
+      "title": "Recrutement immédiat à Kénitra chez Aerodefi Systems",
+      "source": "dreamjob",
+      "last_seen": "2026-07-15T00:31:26.013781+00:00"
+    },
+    "https://jobs.smartrecruiters.com/alten/744000134211830-testeur-fonctionnel-systemes-d-information-logistique-automobile-pilotage-plannings": {
+      "first_seen": "2026-07-15T00:21:11.581279+00:00",
+      "title": "Testeur Fonctionnel - Systèmes d'information : Logistique Automobile , Pilotage Plannings",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:31:26.013781+00:00"
+    },
+    "https://www.dreamjob.ma/emploi/le-cmi-recherche-des-profils-en-rh-finance-et-it": {
+      "first_seen": "2026-07-15T00:21:21.492547+00:00",
+      "title": "Le CMI recherche des profils en RH, finance et IT",
+      "source": "dreamjob",
+      "last_seen": "2026-07-15T00:21:21.492547+00:00"
+    },
+    "https://www.marocannonces.com/categorie/309/offres-emploi/annonce/10415170/stagiaire-rh-(-r%c3%a9mun%c3%a9r%c3%a9,-pr%c3%a9-embauche-).html": {
+      "first_seen": "2026-07-15T00:21:21.492547+00:00",
+      "title": "Stagiaire rh ( rémunéré, pré-embauche )",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:21:21.492547+00:00"
+    },
+    "https://workmaroc.com/jobs/assistante-rh-ain-sebaa-casablanca-c5913e3e67e038fe6ca3d7c6b42c7bee": {
+      "first_seen": "2026-07-15T00:21:21.492547+00:00",
+      "title": "Assistante RH – Aïn Sebaâ (Casablanca)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:21:21.492547+00:00"
+    },
+    "https://www.dreamjob.ma/emploi/yazaki-morocco-ouvre-3-opportunites-en-rh-maintenance-et-sante": {
+      "first_seen": "2026-07-15T00:21:21.492547+00:00",
+      "title": "Yazaki Morocco ouvre 3 opportunités en RH, maintenance et santé",
+      "source": "dreamjob",
+      "last_seen": "2026-07-15T00:21:21.492547+00:00"
+    },
+    "https://www.rekrute.com/fr/offre-emploi-chargee-rh-centre-ville-recrutement-crit-casablanca-184272.html": {
+      "first_seen": "2026-07-15T00:21:21.492547+00:00",
+      "title": "Chargée RH ( centre ville) | Casablanca (Maroc)",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T00:21:21.492547+00:00"
+    },
+    "https://www.dreamjob.ma/emploi/mondial-berry-recrute-plusieurs-profils-rh-a-biougra": {
+      "first_seen": "2026-07-15T00:21:21.492547+00:00",
+      "title": "Mondial Berry recrute plusieurs profils RH à Biougra",
+      "source": "dreamjob",
+      "last_seen": "2026-07-15T00:21:21.492547+00:00"
+    },
+    "https://ma.trabajo.org/offre-5056-4c143867ab97dd5871ca174b57d56ad5": {
+      "first_seen": "2026-07-15T11:19:36.439070+00:00",
+      "title": "Ingénierie systèmes , réseaux",
+      "source": "jobrapido",
+      "last_seen": "2026-07-15T12:32:43.321238+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/axsol-gmbh/software-engineer-cloud-platform-wurzburg-375628": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Software Engineer Cloud Platform (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/finton-advisors-by-efpinai-gmbh/software-engineer-automation-operations-ft-cologne-362002": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Software Engineer - Automation & Operations (m/w/d, FT)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/contensi-software-gmbh/senior-devops-engineer-full-time-100-remote-berlin-357461": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Senior DevOps Engineer - full-time - 100 % remote",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/flix/senior-full-stack-engineer-python-berlin-464084": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Senior Full Stack Engineer- Python (m/f/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/jobportal/senior-software-developer-dortmund-remote-69872": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Senior Software Developer (m/w/d) · Dortmund & Remote",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/medipulse/frontend-engineer-munich-438244": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Frontend Engineer (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/beyondservice-gmbh/senior-shopify-developer-michendorf-300872": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Senior Shopify Developer",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/ekvip-automation-gmbh/sps-softwareentwicklung-beckhoff-twincat-leipzig-236595": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "SPS Softwareentwicklung Beckhoff twinCAT",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/app-developer-ios-android-passau-289460": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "App Developer iOS Android (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    },
+    "https://www.arbeitnow.com/jobs/companies/sudvolt-gmbh/werkstudent-softwareentwicklung-interne-tools-automatisierung-munich-274384": {
+      "first_seen": "2026-07-15T12:28:47.369466+00:00",
+      "title": "Werkstudent Softwareentwicklung - Interne Tools & Automatisierung (m/w/d)",
+      "source": "arbeitnow",
+      "last_seen": "2026-07-15T12:28:47.369466+00:00"
+    }
+  }
+}

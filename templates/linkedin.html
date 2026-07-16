@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Posts LinkedIn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20260715d" />
+</head>
+<body>
+  <div class="page">
+    <nav class="top-nav" aria-label="Navigation">
+      <a href="/">Recherche d’emploi</a>
+      <a href="/linkedin" class="is-active">Posts LinkedIn</a>
+    </nav>
+
+    <header class="hero">
+      <p class="brand">Posts LinkedIn</p>
+      <h1>Collez une offre, voyez la correspondance</h1>
+      <p class="lede">Ajoutez un post via URL ou texte collé, comparez-le à votre CV, puis générez une lettre de motivation, un e-mail ou un message privé.</p>
+    </header>
+
+    <main>
+      <form id="linkedin-form" class="panel" enctype="multipart/form-data">
+        <div class="field upload">
+          <span>CV (PDF, DOCX ou TXT)</span>
+          <div class="file-with-clear">
+            <input type="file" name="resume" id="li-resume" accept=".pdf,.docx,.txt,.md" />
+            <button type="button" class="clear-btn clear-btn-side" id="li-clear-resume" aria-label="Retirer le CV" hidden>×</button>
+          </div>
+          <small id="li-file-label">Obligatoire pour calculer la correspondance et rédiger le texte.</small>
+        </div>
+
+        <fieldset class="field age-field">
+          <legend>Source du post LinkedIn</legend>
+          <div class="age-options" role="radiogroup" aria-label="Source du post LinkedIn">
+            <label class="age-option">
+              <input type="radio" name="post_mode" value="text" checked />
+              <span>Texte collé</span>
+            </label>
+            <label class="age-option">
+              <input type="radio" name="post_mode" value="url" />
+              <span>URL du post</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="field" id="li-text-field">
+          <span>Post LinkedIn (texte collé)</span>
+          <textarea
+            id="li-post"
+            name="post"
+            rows="10"
+            placeholder="Collez ici le texte du post (offre ou appel du recruteur à envoyer un message privé)…"
+          ></textarea>
+        </div>
+
+        <div class="field" id="li-url-field" hidden>
+          <span>URL du post LinkedIn</span>
+          <input
+            type="url"
+            id="li-url"
+            name="url"
+            placeholder="https://www.linkedin.com/posts/… ou lnkd.in/…"
+            autocomplete="off"
+          />
+          <small class="hint">Si LinkedIn bloque la lecture du lien, basculez sur « Texte collé ».</small>
+        </div>
+
+        <button type="submit" id="li-analyze-btn">Analyser la correspondance</button>
+      </form>
+
+      <section id="li-status" class="status" hidden></section>
+
+      <section id="li-match" class="match-panel" hidden>
+        <div class="card-top">
+          <div>
+            <h2 id="li-job-title">Offre</h2>
+            <p class="company" id="li-job-company"></p>
+          </div>
+          <div class="score" id="li-match-score">— %</div>
+        </div>
+        <p class="why" id="li-match-reasons"></p>
+        <p class="hint" id="li-match-hint"></p>
+
+        <div class="actions li-actions">
+          <button type="button" class="action-btn" id="li-gen-letter" data-kind="cover_letter">
+            Générer une lettre de motivation
+          </button>
+          <button type="button" class="action-btn" id="li-gen-email" data-kind="email">
+            Générer un e-mail de candidature
+          </button>
+          <button type="button" class="action-btn" id="li-gen-dm" data-kind="linkedin_dm">
+            Générer un message privé
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="li-output-modal" class="modal" hidden>
+    <div class="modal-card">
+      <button type="button" class="modal-close" id="li-output-close" aria-label="Fermer">×</button>
+      <h2 id="li-output-title">Texte généré</h2>
+      <p id="li-gen-status" class="hint"></p>
+      <div id="li-editor"></div>
+      <div class="modal-actions">
+        <button type="button" class="secondary-btn" id="li-pdf" hidden>Exporter en PDF</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="pdf-contact-error" class="modal modal-nested" hidden>
+    <div class="modal-card modal-card-sm" role="alertdialog" aria-labelledby="pdf-contact-error-title">
+      <button type="button" class="modal-close" id="pdf-contact-error-close" aria-label="Fermer">×</button>
+      <h2 id="pdf-contact-error-title">Informations manquantes</h2>
+      <p class="modal-job">Complétez ces informations dans la lettre avant d’exporter le PDF :</p>
+      <ul id="pdf-contact-error-list" class="pdf-contact-error-list"></ul>
+      <button type="button" class="primary-btn" id="pdf-contact-error-ok">Compris</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='editor.js') }}?v=20260714b"></script>
+  <script src="{{ url_for('static', filename='linkedin.js') }}?v=20260715e"></script>
+</body>
+</html>

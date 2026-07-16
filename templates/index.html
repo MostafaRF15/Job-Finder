@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recherche d’emploi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=20260715d" />
+</head>
+<body>
+  <div class="page">
+    <nav class="top-nav" aria-label="Navigation">
+      <a href="/" class="is-active">Recherche d’emploi</a>
+      <a href="/linkedin">Posts LinkedIn</a>
+    </nav>
+
+    <header class="hero">
+      <p class="brand">Recherche d’emploi</p>
+      <h1>Trouvez des offres selon votre zone</h1>
+      <p class="lede">Choisissez Maroc, International ou Tout. Les résultats sont filtrés selon votre choix.</p>
+    </header>
+
+    <main>
+      <form id="search-form" class="panel" enctype="multipart/form-data">
+        <div class="field">
+          <span>Mots-clés</span>
+          <div class="input-with-clear">
+            <input type="text" name="query" id="query" placeholder="ex. : développeur python, administrateur système" autocomplete="off" />
+            <button type="button" class="clear-btn" id="clear-query" aria-label="Effacer les mots-clés" hidden>×</button>
+          </div>
+        </div>
+
+        <label class="field">
+          <span>Zone de recherche</span>
+          <select name="region" id="region">
+            {% for region in regions %}
+            <option value="{{ region.id }}" {% if region.id == default_region %}selected{% endif %}>{{ region.label }}</option>
+            {% endfor %}
+          </select>
+        </label>
+
+        <div class="field upload">
+          <span>CV (PDF, DOCX ou TXT)</span>
+          <div class="file-with-clear">
+            <input type="file" name="resume" id="resume" accept=".pdf,.docx,.txt,.md" />
+            <button type="button" class="clear-btn clear-btn-side" id="clear-resume" aria-label="Retirer le CV" hidden>×</button>
+          </div>
+          <small id="file-label">Importez votre CV pour cibler le bon métier et éviter les offres hors profil.</small>
+        </div>
+
+        <fieldset class="field age-field">
+          <legend>Ancienneté des offres</legend>
+          <div class="age-options" role="radiogroup" aria-label="Ancienneté des offres">
+            <label class="age-option">
+              <input type="radio" name="max_age" value="1" />
+              <span>Dernières 24 h</span>
+            </label>
+            <label class="age-option">
+              <input type="radio" name="max_age" value="7" checked />
+              <span>7 jours</span>
+            </label>
+            <label class="age-option">
+              <input type="radio" name="max_age" value="15" />
+              <span>15 jours</span>
+            </label>
+            <label class="age-option">
+              <input type="radio" name="max_age" value="30" />
+              <span>30 jours</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <input type="hidden" name="limit" value="40" />
+
+        <button type="submit" id="submit-btn">Chercher</button>
+      </form>
+
+      <section id="status" class="status" hidden></section>
+      <div id="results-toolbar" class="results-toolbar" hidden>
+        <div class="filter-bar">
+          <p class="filter-count" id="filter-count" hidden></p>
+          <div class="filter-toggle-wrap">
+            <button type="button" id="filter-toggle" class="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+              Filtres
+            </button>
+            <div id="filter-panel" class="filter-panel" hidden>
+              <label class="filter-row">
+                <span>Par correspondance %</span>
+                <select id="match-select">
+                  <option value="0" selected>Tous</option>
+                  <option value="50">≥ 50 %</option>
+                  <option value="60">≥ 60 %</option>
+                  <option value="70">≥ 70 %</option>
+                  <option value="80">≥ 80 %</option>
+                </select>
+              </label>
+              <label class="filter-row">
+                <span>Date de publication</span>
+                <select id="date-select">
+                  <option value="newest" selected>Plus récentes</option>
+                  <option value="oldest">Plus anciennes</option>
+                </select>
+              </label>
+              <label class="filter-row">
+                <span>Nouveautés</span>
+                <select id="new-select">
+                  <option value="all" selected>Toutes</option>
+                  <option value="new">Jamais vues seulement</option>
+                </select>
+              </label>
+              <label class="filter-row" id="zone-filter-row" hidden>
+                <span>Zone de recherche</span>
+                <select id="zone-select">
+                  <option value="all" selected>Toutes</option>
+                  <option value="Maroc">Maroc</option>
+                  <option value="International">International</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="results" class="results" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <div id="write-modal" class="modal" hidden>
+    <div class="modal-card">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Fermer">×</button>
+      <h2 id="modal-title">Génération</h2>
+      <p id="modal-job" class="modal-job"></p>
+      <button type="button" class="primary-btn" id="modal-generate">Générer</button>
+      <div id="modal-cv-missing" class="modal-cv-missing" hidden>
+        <p class="status error" id="modal-cv-missing-msg">Importez d’abord votre CV, puis régénérez.</p>
+        <button type="button" class="secondary-btn" id="modal-import-cv">Importer maintenant</button>
+      </div>
+      <p id="modal-status" class="hint" hidden></p>
+      <div id="modal-editor" hidden></div>
+      <div class="modal-actions" id="modal-actions" hidden>
+        <button type="button" class="secondary-btn" id="modal-pdf">Exporter en PDF</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="pdf-contact-error" class="modal modal-nested" hidden>
+    <div class="modal-card modal-card-sm" role="alertdialog" aria-labelledby="pdf-contact-error-title">
+      <button type="button" class="modal-close" id="pdf-contact-error-close" aria-label="Fermer">×</button>
+      <h2 id="pdf-contact-error-title">Informations manquantes</h2>
+      <p class="modal-job">Complétez ces informations dans la lettre avant d’exporter le PDF :</p>
+      <ul id="pdf-contact-error-list" class="pdf-contact-error-list"></ul>
+      <button type="button" class="primary-btn" id="pdf-contact-error-ok">Compris</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='editor.js') }}?v=20260714b"></script>
+  <script src="{{ url_for('static', filename='app.js') }}?v=20260715e"></script>
+</body>
+</html>

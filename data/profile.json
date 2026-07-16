@@ -1,0 +1,16 @@
+{
+  "name": "Mostafa",
+  "titles": ["Administrateur IT", "Administrateur Système", "Technicien Informatique"],
+  "skills": ["Linux", "Windows Server", "Active Directory", "Networking", "Office 365", "VMware", "Helpdesk"],
+  "experience_years": 3,
+  "region": "morocco",
+  "cv_domain": "it_admin",
+  "locations": ["Remote", "Morocco", "Europe", "France"],
+  "work_type": ["remote", "hybrid", "onsite"],
+  "salary_min": 40000,
+  "currency": "MAD",
+  "exclude_keywords": ["développeur", "developpeur", "backend", "frontend", "unpaid"],
+  "preferred_keywords": ["administrateur", "système", "réseau", "windows", "linux", "active directory"],
+  "category": "software-dev",
+  "notes": "Profil Administrateur IT — pas développement."
+}
