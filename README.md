@@ -32,3 +32,5 @@ Step-by-step build notes: `docs/STEPS.md`
 
 Set `OPENAI_API_KEY` in `.env` (see `.env.example`), then tick **AI explanations** in the web UI.
 # Job-Finder
+
+test commit
