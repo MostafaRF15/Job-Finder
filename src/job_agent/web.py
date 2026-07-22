@@ -93,6 +93,12 @@ def _no_cache_static(response):
     return response
 
 
+@app.get("/health")
+def health():
+    """Lightweight liveness check (used by monitoring / CI)."""
+    return jsonify({"ok": True, "status": "healthy"})
+
+
 @app.get("/")
 def index():
     profile = load_profile()
